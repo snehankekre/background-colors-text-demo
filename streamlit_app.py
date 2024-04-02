@@ -7,9 +7,9 @@ with st.expander("Usage"):
     This demo showcases the markdown background color feature. 
     Select a color from the dropdown and type some text to see it rendered with the selected background color.
 
-    The markdown syntax used is `:color[text]`, where `color` is the name of the background color and `text` is the text to be rendered.
+    The markdown syntax used is `:color-background[text]`, where `color` is the name of the background color and `text` is the text to be rendered.
 
-    Alternative syntax options are `:colorbg[text]`, `:color-bg[text]`, `:background-color[text]`, and `:color-background[text]`.
+    Alternative syntax options are `:colorbg[text]`, `:color-bg[text]`, and `:background-color[text]`.
 
     Supported background colors are :rainbowbg[Rainbow], :redbg[Red], :bluebg[Blue], :greenbg[Green], :violetbg[Violet], :orangebg[Orange], and :graybg[Gray].
 
@@ -40,5 +40,5 @@ with col1:
     st.markdown(f":{selected_color}[{user_input}]")
 
 with col2:
-    user_input = st.text_input("Enter your text in the syntax of your choice:", value=":rainbowbg[This is some text]")
+    user_input = st.text_input("Enter your text in the syntax of your choice:", value=":rainbow-background[This is some text]")
     st.markdown(user_input)
