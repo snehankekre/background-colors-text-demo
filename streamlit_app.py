@@ -11,9 +11,9 @@ with st.expander("Usage"):
 
     Alternative syntax options are `:colorbg[text]`, `:color-bg[text]`, and `:background-color[text]`.
 
-    Supported background colors are :rainbowbg[Rainbow], :redbg[Red], :bluebg[Blue], :greenbg[Green], :violetbg[Violet], :orangebg[Orange], and :graybg[Gray].
+    Supported background colors are rainbow, red, blue, green, violet, orange, and gray.
 
-    Note: You can also nest colored backgrounds with colored text, e.g. `:redbg[:blue[This is some blue text on a red background]]`.
+    Note: You can also nest colored backgrounds with colored text, e.g. `:red-background[:blue[This is some blue text on a red background]]`.
     """)
 
 col1, col2 = st.columns(2)
