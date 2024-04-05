@@ -12,7 +12,7 @@ with st.expander("Usage", expanded=True):
 
     Supported background colors are rainbow, red, blue, green, violet, orange, and gray.
 
-    Note: You can also nest colored backgrounds with colored text, e.g. `:red-background[:blue[This is some blue text on a red background]]`.
+    Note: We don't include this in the docstrings nor publicly promote it, but you can technically also nest colored backgrounds with colored text, e.g. `:red-background[:blue[This is some blue text on a red background]]`.
     """
     )
 
