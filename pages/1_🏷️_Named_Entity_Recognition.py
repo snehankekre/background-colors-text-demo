@@ -44,6 +44,7 @@ The text you enter will be analyzed, and named entities will be highlighted with
 user_input = st.text_area(
     "Enter Text",
     """Elon Musk, the CEO of Tesla, Inc., announced that the company had chosen Berlin as the site for its European Gigafactory. 
+
 The announcement was made on November 12, 2019, during an awards ceremony. 
 Tesla plans to invest around $4 billion in this new facility, aiming to start production by 2021. 
 This strategic move is expected to boost the economy of Germany and provide thousands of jobs in the region.""",
